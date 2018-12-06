@@ -1,0 +1,24 @@
+From 1abae8b542eb66119f5106803ee743624c638b28 Mon Sep 17 00:00:00 2001
+From: Jan Chaloupka <jchaloup@redhat.com>
+Date: Thu, 30 Jul 2015 16:29:41 +0200
+Subject: [PATCH] add license
+
+---
+ LICENSE | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 LICENSE
+
+diff --git a/LICENSE b/LICENSE
+new file mode 100644
+index 0000000..bb3de1b
+--- /dev/null
++++ b/LICENSE
+@@ -0,0 +1,5 @@
++Copyright (C) 2013 Blake Mizerany
++
++Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-- 
+1.9.3
+

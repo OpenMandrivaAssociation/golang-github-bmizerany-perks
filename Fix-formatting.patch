@@ -1,0 +1,25 @@
+From 58da4dd6f4c995037ca9a41f00d3420e552a7298 Mon Sep 17 00:00:00 2001
+From: Jan Chaloupka <jchaloup@redhat.com>
+Date: Fri, 8 Jun 2018 21:52:26 +0200
+Subject: [PATCH] Fix formatting
+
+---
+ histogram/histogram_test.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/histogram/histogram_test.go b/histogram/histogram_test.go
+index 0575ebe..2a2d057 100644
+--- a/histogram/histogram_test.go
++++ b/histogram/histogram_test.go
+@@ -25,7 +25,7 @@ func TestHistogram(t *testing.T) {
+ 	}
+ 
+ 	if g := count(h.Bins()); g != numPoints {
+-		t.Fatalf("binned %d points, wanted %d", g, numPoints)
++		t.Fatalf("binned %d points, wanted %f", g, numPoints)
+ 	}
+ }
+ 
+-- 
+2.7.5
+
